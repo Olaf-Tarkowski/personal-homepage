@@ -1,14 +1,16 @@
-import './App.css';
+import Greeting from "./features/Greeting";
+import Learn from "./features/Learn";
+import Skills from "./features/Skills";
+import { StyledPage } from "./styled";
 
 function App() {
   return (
-    <div className="App">
-
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-    </div>
+    <StyledPage>
+      <Greeting />
+      <Skills />
+      <Learn />
+    </StyledPage>
   );
-}
+};
 
 export default App;
