@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Demo
-[My first page](https://olaf-tarkowski.github.io/personal-homepage/)
+[Personal Homepage](https://olaf-tarkowski.github.io/personal-homepage/)
 
 ## Available Scripts
 
