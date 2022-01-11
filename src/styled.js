@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledPage = styled.div`
     margin:115px auto;
-    max-width: 1216px;
+    padding: 14px;
+    max-width: 1244px;
 `;
 
