@@ -4,5 +4,6 @@ export const theme = {
         whiteLilac: "#FBFBFE",
         black: "#000000",
         indigo: "#3C6EC9",
+        slateGray: "#6E7E91",
     }
 }
