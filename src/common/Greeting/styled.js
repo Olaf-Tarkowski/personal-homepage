@@ -38,6 +38,7 @@ export const Name = styled.div`
     font-weight: 900;
     font-size: 38px;
     line-height: 46px;
+    letter-spacing: 0.05em;
 `;
 
 export const BasicInfo = styled.div`
@@ -45,6 +46,7 @@ export const BasicInfo = styled.div`
     font-size: 20px;
     font-weight: 400;
     line-height: 140%;
+    letter-spacing: 0.05em;
     color: ${({theme}) => theme.color.slateGray};
 `;
 
@@ -62,6 +64,7 @@ export const Button = styled.button`
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    letter-spacing: 0.05em;
     color: ${({theme}) => theme.color.white};
     background-color: ${({theme}) => theme.color.indigo};
 `;
