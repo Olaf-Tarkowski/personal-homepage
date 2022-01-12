@@ -8,8 +8,8 @@ function App() {
   return (
     <StyledPage>
       <Greeting />
-      <Tiles title={"My skillset includes"} data={skillList} />
-      <Tiles title={"What I want to learn next"} data={targetList} />
+      <Tiles title={"My skillset includes 🛠️"} data={skillList} />
+      <Tiles title={"What I want to learn next 🚀"} data={targetList} />
     </StyledPage>
   );
 };
