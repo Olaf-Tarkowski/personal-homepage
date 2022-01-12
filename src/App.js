@@ -1,3 +1,4 @@
+import Footer from "./common/Footer";
 import Greeting from "./common/Greeting";
 import Tiles from "./common/Tiles";
 import skillList from "./common/Tiles/Data/skillList";
@@ -10,6 +11,7 @@ function App() {
       <Greeting />
       <Tiles title={"My skillset includes 🛠️"} data={skillList} />
       <Tiles title={"What I want to learn next 🚀"} data={targetList} />
+      <Footer />
     </StyledPage>
   );
 };
