@@ -10,6 +10,7 @@ export const Tile = styled.div`
 
 export const Title = styled.h1`
     margin: 0px;
+    padding-bottom: 15px;
     color: ${({ theme }) => theme.color.black};
     font-weight: 900;
     font-size: 30px;
@@ -17,8 +18,12 @@ export const Title = styled.h1`
 `;
 
 export const List = styled.ul`
+    margin: 0px;
+    padding-left: 18px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 8px;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -28,6 +33,14 @@ export const List = styled.ul`
 export const ListItem = styled.li`
 `;
 
-export const Line = styled.span`
+export const Text = styled.span`
     color: ${({ theme }) => theme.color.slateGray};
+`;
+
+export const Line = styled.div`
+margin-bottom: 32px;
+max-width: 100%;
+height: 1px;
+border-radius: 5px;
+background-color: ${({ theme }) => theme.color.mischka};
 `;
