@@ -1,5 +1,5 @@
 import { nanoid } from "@reduxjs/toolkit";
-import { Line, List, ListItem, Tile, Title } from "./styled";
+import { Text, List, ListItem, Tile, Title, Line } from "./styled";
 
 const Tiles = ({ title, data }) => {
     return (
@@ -7,10 +7,11 @@ const Tiles = ({ title, data }) => {
             <Title>
                 {title}
             </Title>
+            <Line />
             <List>
                 {data.map(target => {
                     return (
-                        <ListItem key={nanoid()}><Line>{target}</Line></ListItem>
+                        <ListItem key={nanoid()}><Text>{target}</Text></ListItem>
                     )
                 })}
             </List>
