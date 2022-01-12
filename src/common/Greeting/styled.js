@@ -3,6 +3,7 @@ import picture from "../../images/narty_narty.jpg"
 import { ReactComponent as Envelope } from "../../images/envelope.svg";
 
 export const Tile = styled.div`
+    margin-bottom: 72px;
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-gap: 66px;
