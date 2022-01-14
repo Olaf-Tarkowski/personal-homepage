@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.42b87a40.chunk.js",
-    "main.js.map": "/personal-homepage/static/js/main.42b87a40.chunk.js.map",
+    "main.js": "/personal-homepage/static/js/main.2f45cec7.chunk.js",
+    "main.js.map": "/personal-homepage/static/js/main.2f45cec7.chunk.js.map",
     "runtime-main.js": "/personal-homepage/static/js/runtime-main.4e4ae177.js",
     "runtime-main.js.map": "/personal-homepage/static/js/runtime-main.4e4ae177.js.map",
     "static/js/2.cc99fb5e.chunk.js": "/personal-homepage/static/js/2.cc99fb5e.chunk.js",
@@ -11,7 +11,7 @@
     "index.html": "/personal-homepage/index.html",
     "static/js/2.cc99fb5e.chunk.js.LICENSE.txt": "/personal-homepage/static/js/2.cc99fb5e.chunk.js.LICENSE.txt",
     "static/media/Facebook.14f43e9c.svg": "/personal-homepage/static/media/Facebook.14f43e9c.svg",
-    "static/media/GitHub.571d1ccb.svg": "/personal-homepage/static/media/GitHub.571d1ccb.svg",
+    "static/media/GitHub.09abe07d.svg": "/personal-homepage/static/media/GitHub.09abe07d.svg",
     "static/media/Instagram.ac575dc2.svg": "/personal-homepage/static/media/Instagram.ac575dc2.svg",
     "static/media/LinkedIn.2c26b104.svg": "/personal-homepage/static/media/LinkedIn.2c26b104.svg",
     "static/media/envelope.51446152.svg": "/personal-homepage/static/media/envelope.51446152.svg",
@@ -20,6 +20,6 @@
   "entrypoints": [
     "static/js/runtime-main.4e4ae177.js",
     "static/js/2.cc99fb5e.chunk.js",
-    "static/js/main.42b87a40.chunk.js"
+    "static/js/main.2f45cec7.chunk.js"
   ]
 }
