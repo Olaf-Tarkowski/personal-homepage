@@ -44,25 +44,64 @@ export const LinkIcons = styled.div`
 `;
 
 export const GitHubImage = styled(GitHub)`
-    height: 40px;
-    weight: 40px;
-    path {fill: ${({theme}) => theme.color.black};}
+    transition: 0.9s;
+    height: 50px;
+    weight: 50px;
+    margin-right: 24px;
+    path {transition: fill ,0.9s;}
+    :hover {
+        transform: scale(1.15);
+        path {fill: ${({theme}) => theme.color.vinRouge};}
+    }
+    :active {
+        transform: scale(1.15);
+        path {fill: ${({theme}) => theme.color.vinRougeLessSaturated};}
+    }
 `;
 
 export const FacebookImage = styled(Facebook)`
-    height: 40px;
-    weight: 40px;
-    path {fill: ${({theme}) => theme.color.black};}
+    transition: 0.9s;
+    height: 50px;
+    weight: 50px;
+    margin-right: 24px;
+    path {transition: fill ,0.9s;}
+    :hover {
+        transform: scale(1.15);
+        path {fill: ${({theme}) => theme.color.vinRouge};}
+    }
+    :active {
+        transform: scale(1.15);
+        path {fill: ${({theme}) => theme.color.vinRougeLessSaturated};}
+    }
 `;
 
 export const LinkedInImage = styled(LinkedIn)`
-    height: 40px;
-    weight: 40px;
-    path {fill: ${({theme}) => theme.color.black};}
+    transition: 0.9s;
+    height: 50px;
+    weight: 50px;
+    margin-right: 24px;
+    path {transition: fill ,0.9s;}
+    :hover {
+        transform: scale(1.15);
+        path {fill: ${({theme}) => theme.color.vinRouge};}
+    }
+    :active {
+        transform: scale(1.15);
+        path {fill: ${({theme}) => theme.color.vinRougeLessSaturated};}
+    }
 `;
 
 export const InstagramImage = styled(Instagram)`
-    height: 40px;
-    weight: 40px;
-    path {fill: ${({theme}) => theme.color.black};}
+    transition: 0.9s;
+    height: 50px;
+    weight: 50px;
+    path {transition: fill ,0.9s;}
+    :hover {
+        transform: scale(1.15);
+        path {fill: ${({theme}) => theme.color.vinRouge};}
+    }
+    :active {
+        transform: scale(1.15);
+        path {fill: ${({theme}) => theme.color.vinRougeLessSaturated};}
+    }
 `;

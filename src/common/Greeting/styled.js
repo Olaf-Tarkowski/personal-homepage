@@ -52,9 +52,11 @@ export const BasicInfo = styled.div`
 
 export const Mail = styled.a`
     text-decoration: none;
+    
 `;
 
 export const Button = styled.button`
+    transition: 0.9s;
     padding:12px 16px; 
     border: none;
     border-radius: 5px;
@@ -67,6 +69,14 @@ export const Button = styled.button`
     letter-spacing: 0.05em;
     color: ${({theme}) => theme.color.white};
     background-color: ${({theme}) => theme.color.indigo};
+    :hover {
+        transform: scale(1.15);
+        background-color: ${({theme}) => theme.color.vinRouge};
+    }
+    :active {
+        transform: scale(1.15);
+        background-color: ${({theme}) => theme.color.vinRougeLessSaturated};
+    }
 `;
 
 export const EnvelopeIcon = styled(Envelope)`

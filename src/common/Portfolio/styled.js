@@ -9,9 +9,10 @@ export const Tile = styled.div`
 `;
 
 export const GitHubImage = styled(GitHub)`
-    height: 40px;
-    weight: 40px;
+    height: 50px;
+    weight: 50px;
     margin-bottom: 13px;
+    path {fill: ${({theme}) => theme.color.indigo};
 `;
 
 export const BasicInfo = styled.div`

@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <>
       <Tile>
-        <GitHubImage />
+        <GitHubImage/>
         <BasicInfo>
           Portfolio
         </BasicInfo>
