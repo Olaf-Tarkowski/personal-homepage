@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { ReactComponent as GitHub } from "../../images/GitHub.svg";
-import { ReactComponent as Facebook } from "../../images/Facebook.svg";
-import { ReactComponent as LinkedIn } from "../../images/LinkedIn.svg";
-import { ReactComponent as Instagram } from "../../images/Instagram.svg";
+import { ReactComponent as GitHub } from "./images/GitHub.svg";
+import { ReactComponent as Facebook } from "./images/Facebook.svg";
+import { ReactComponent as LinkedIn } from "./images/LinkedIn.svg";
+import { ReactComponent as Instagram } from "./images/Instagram.svg";
 
 export const Content = styled.div`
     display:flex;

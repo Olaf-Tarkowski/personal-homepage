@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import picture from "../../images/narty_narty.jpg"
-import { ReactComponent as Envelope } from "../../images/envelope.svg";
+import picture from "./images/Profile_Picture.jpg"
+import { ReactComponent as Envelope } from "./images/Envelope.svg";
 
 export const Tile = styled.div`
     margin-bottom: 72px;

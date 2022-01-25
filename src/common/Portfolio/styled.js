@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as GitHub } from "../../images/GitHub.svg";
+import { ReactComponent as GitHub } from "./images/GitHub.svg";
 
 export const Tile = styled.div`
     display:flex;
@@ -12,7 +12,7 @@ export const GitHubImage = styled(GitHub)`
     height: 50px;
     weight: 50px;
     margin-bottom: 13px;
-    path {fill: ${({theme}) => theme.color.indigo};
+    path {fill: ${({theme}) => theme.color.indigo}};
 `;
 
 export const BasicInfo = styled.div`
