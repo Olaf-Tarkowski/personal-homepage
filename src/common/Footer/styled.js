@@ -20,6 +20,7 @@ export const Welcom = styled.div`
 `;
 
 export const Mail = styled.a`
+    transition: 0.9s;
     margin-bottom: 24px;
     text-decoration: none;
     border: none;
@@ -29,6 +30,12 @@ export const Mail = styled.a`
     line-height: 39px;
     letter-spacing: 0.05em;
     color: ${({theme}) => theme.color.black};
+    :hover{
+        color: ${({theme}) => theme.color.indigo}
+    }
+    :active {
+        color: ${({theme}) => theme.color.vinRouge}
+    }
 `;
 
 export const BasicInfo = styled.div`
