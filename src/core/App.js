@@ -1,8 +1,8 @@
-import Footer from "./common/Footer";
-import Greeting from "./common/Greeting";
-import Portfolio from "./common/Portfolio";
-import Goals from "./common/Tiles/Goals";
-import Skills from "./common/Tiles/Skills";
+import Footer from "../common/Footer";
+import Greeting from "../common/Greeting";
+import Portfolio from "../common/Portfolio";
+import Goals from "../common/Tiles/Goals";
+import Skills from "../common/Tiles/Skills";
 import { StyledPage } from "./styled";
 
 function App() {
