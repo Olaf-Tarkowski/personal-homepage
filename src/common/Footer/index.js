@@ -32,7 +32,7 @@ const Footer = () => {
           <LinkIcon href="https://www.facebook.com/olaf.tarkowskii/">
             <FacebookImage />
           </LinkIcon>
-          <LinkIcon href="https://www.linkedin.com/in/olaf-tarkowski-053a62229/">
+          <LinkIcon href="https://www.linkedin.com/in/olaf-tarkowski/">
             <LinkedInImage />
           </LinkIcon>
           <LinkIcon href="https://www.instagram.com/0laf_tarkowski/?hl=pl">
