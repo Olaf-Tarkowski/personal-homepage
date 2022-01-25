@@ -50,6 +50,10 @@ export const BasicInfo = styled.div`
 export const LinkIcons = styled.div`
 `;
 
+export const LinkIcon = styled.a`
+
+`;
+
 export const GitHubImage = styled(GitHub)`
     transition: 0.9s;
     height: 50px;
