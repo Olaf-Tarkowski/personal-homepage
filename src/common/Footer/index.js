@@ -8,7 +8,6 @@ import {
   FacebookImage,
   InstagramImage,
   LinkedInImage,
-  Button,
   LinkIcon,
 } from "./styled";
 
