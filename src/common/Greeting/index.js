@@ -12,7 +12,7 @@ const Greeting = () => {
           Olaf Tarkowski
         </Name>
         <BasicInfo>
-          👨🏻‍💻 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          👨🏻‍💻 I’m a passionate Frontend Developer in love with React,currently looking for new job opportunities.
         </BasicInfo>
         <Mail href="mailto:tarkowski.software@gmail.com">
           <Button>
