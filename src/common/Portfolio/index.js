@@ -1,3 +1,4 @@
+import LoadingPortfolio from "../../features/LoadingPortfolio";
 import { BasicInfo, Content, Description, GitHubImage, Tile } from "./styled";
 
 const Portfolio = () => {
@@ -12,7 +13,7 @@ const Portfolio = () => {
           My recent projects
         </Description>
         <Content>
-          Lorem
+          <LoadingPortfolio />
         </Content>
       </Tile>
     </>
