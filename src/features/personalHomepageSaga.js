@@ -1,4 +1,4 @@
-import { call, put, takeEvery, delay, takeLatest } from "redux-saga/effects";
+import { call, put, delay, takeLatest } from "redux-saga/effects";
 import { personalHomepageApi } from "./personalHomepageApi";
 import {
   fetchError,
