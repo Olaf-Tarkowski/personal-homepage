@@ -1,4 +1,5 @@
 import PortfolioTile from "../PortfolioTile";
+import { StyledPortfolioTile } from "./styled";
 
 export const Content = ({ personalHomepageStatus, personalHomepageData }) => {
   switch (personalHomepageStatus) {
@@ -9,7 +10,11 @@ export const Content = ({ personalHomepageStatus, personalHomepageData }) => {
     case "error":
       return <p>error</p>;
     case "success":
-      return <PortfolioTile personalHomepageData={personalHomepageData} />;
+      return (
+        <StyledPortfolioTile>
+          <PortfolioTile personalHomepageData={personalHomepageData} />
+        </StyledPortfolioTile>
+      );
     default:
       throw new Error(`incorrect status: ${personalHomepageStatus}`);
   }
