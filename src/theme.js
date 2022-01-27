@@ -13,7 +13,7 @@ export const theme = {
         mobileMin: "380px",
         mobileMid: "480px",
         mobileMax: "767px",
-        tabletMax: "992px",
+        tabletMax: "860px",
         navMax: "1100px",
       },
 }
