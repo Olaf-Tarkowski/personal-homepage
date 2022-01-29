@@ -12,7 +12,7 @@ export const GitHubImage = styled(GitHub)`
     height: 50px;
     weight: 50px;
     margin-bottom: 13px;
-    path {fill: ${({theme}) => theme.color.indigo}};
+    path {fill: ${({theme}) => theme.color.list.marker}};
 `;
 
 export const BasicInfo = styled.div`
@@ -21,6 +21,7 @@ export const BasicInfo = styled.div`
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0.05em;
+    color: ${({ theme }) => theme.color.headerLine};
 `;
 
 export const Description = styled.div`
@@ -29,6 +30,7 @@ export const Description = styled.div`
     font-size: 20px;
     line-height: 140%;
     letter-spacing: 0.05em;
+    color: ${({ theme }) => theme.color.headerLine};
 `;
 
 export const Content = styled.div`

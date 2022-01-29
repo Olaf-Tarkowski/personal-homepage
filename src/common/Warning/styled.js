@@ -7,6 +7,7 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: ${({ theme }) => theme.color.headerLine};
 `;
 
 export const ErrorImage = styled(Error)`
@@ -46,14 +47,14 @@ export const Button = styled.button`
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.color.white};
-  background-color: ${({ theme }) => theme.color.indigo};
+  color: ${({ theme }) => theme.color.buttonLink.text};
+  background-color: ${({ theme }) => theme.color.buttonLink.background};
   :hover {
     transform: scale(1.15);
-    background-color: ${({ theme }) => theme.color.vinRouge};
+    background-color: ${({ theme }) => theme.color.buttonLink.hover};
   }
   :active {
     transform: scale(1.15);
-    background-color: ${({ theme }) => theme.color.vinRougeLessSaturated};
+    background-color: ${({ theme }) => theme.color.buttonLink.active};
   }
 `;

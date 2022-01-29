@@ -29,12 +29,12 @@ export const Mail = styled.a`
   font-size: 32px;
   line-height: 39px;
   letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.color.black};
+  color: ${({ theme }) => theme.color.headerLine};
   :hover {
-    color: ${({ theme }) => theme.color.indigo};
+    color: ${({ theme }) => theme.color.list.marker};
   }
   :active {
-    color: ${({ theme }) => theme.color.vinRouge};
+    color: ${({ theme }) => theme.color.list.activeText};
   }
 `;
 
@@ -45,7 +45,7 @@ export const BasicInfo = styled.div`
   font-weight: 400;
   line-height: 140%;
   letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.color.black};
+  color: ${({ theme }) => theme.color.headerLine};
 `;
 
 export const LinkIcons = styled.div``;
@@ -58,18 +58,19 @@ export const GitHubImage = styled(GitHub)`
   weight: 50px;
   margin-right: 24px;
   path {
+    fill: ${({ theme }) => theme.color.icon.static};
     transition: fill, 0.9s;
   }
   :hover {
     transform: scale(1.15);
     path {
-      fill: ${({ theme }) => theme.color.vinRouge};
+      fill: ${({ theme }) => theme.color.icon.hover};
     }
   }
   :active {
     transform: scale(1.15);
     path {
-      fill: ${({ theme }) => theme.color.vinRougeLessSaturated};
+      fill: ${({ theme }) => theme.color.icon.active};
     }
   }
 `;
@@ -80,18 +81,19 @@ export const FacebookImage = styled(Facebook)`
   weight: 50px;
   margin-right: 24px;
   path {
+    fill: ${({ theme }) => theme.color.icon.static};
     transition: fill, 0.9s;
   }
   :hover {
     transform: scale(1.15);
     path {
-      fill: ${({ theme }) => theme.color.vinRouge};
+      fill: ${({ theme }) => theme.color.icon.hover};
     }
   }
   :active {
     transform: scale(1.15);
     path {
-      fill: ${({ theme }) => theme.color.vinRougeLessSaturated};
+      fill: ${({ theme }) => theme.color.icon.active};
     }
   }
 `;
@@ -102,18 +104,19 @@ export const LinkedInImage = styled(LinkedIn)`
   weight: 50px;
   margin-right: 24px;
   path {
+    fill: ${({ theme }) => theme.color.icon.static};
     transition: fill, 0.9s;
   }
   :hover {
     transform: scale(1.15);
     path {
-      fill: ${({ theme }) => theme.color.vinRouge};
+      fill: ${({ theme }) => theme.color.icon.hover};
     }
   }
   :active {
     transform: scale(1.15);
     path {
-      fill: ${({ theme }) => theme.color.vinRougeLessSaturated};
+      fill: ${({ theme }) => theme.color.icon.active};
     }
   }
 `;
@@ -123,18 +126,19 @@ export const InstagramImage = styled(Instagram)`
   height: 50px;
   weight: 50px;
   path {
+    fill: ${({ theme }) => theme.color.icon.static};
     transition: fill, 0.9s;
   }
   :hover {
     transform: scale(1.15);
     path {
-      fill: ${({ theme }) => theme.color.vinRouge};
+      fill: ${({ theme }) => theme.color.icon.hover};
     }
   }
   :active {
     transform: scale(1.15);
     path {
-      fill: ${({ theme }) => theme.color.vinRougeLessSaturated};
+      fill: ${({ theme }) => theme.color.icon.active};
     }
   }
 `;

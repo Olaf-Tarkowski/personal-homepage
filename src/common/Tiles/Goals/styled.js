@@ -10,7 +10,6 @@ export const List = styled.ul`
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    color: ${({ theme }) => theme.color.indigo};
 
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
         grid-template-columns: 1fr 1fr;

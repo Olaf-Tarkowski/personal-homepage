@@ -6,11 +6,10 @@ export const Tile = styled.section`
   justify-content: space-between;
   font-size: 18px;
   line-height: 140%;
-  color: ${({ theme }) => theme.color.slateGray};
-  background-color: ${({ theme }) => theme.color.white};
   padding: 56px;
   max-width: 592px;
   letter-spacing: 0.05em;
+  background-color: ${({ theme }) => theme.color.boxBackground};
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
     0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 5px;
@@ -22,7 +21,7 @@ export const Tile = styled.section`
 
 export const Title = styled.h1`
   margin: 0px 0px 24px 0px;
-  color: ${({ theme }) => theme.color.indigo};
+  color: ${({ theme }) => theme.color.list.headerText};
   text-transform: capitalize;
   font-size: 24px;
   font-weight: 700;
@@ -43,14 +42,14 @@ export const Description = styled.p`
 
 export const Link = styled.a`
   text-decoration: underline;
-  text-decoration-color: ${({ theme }) => theme.color.indigoTransp};
-  color: ${({ theme }) => theme.color.indigo};
+  text-decoration-color: ${({ theme }) => theme.color.list.underscore};
+  color: ${({ theme }) => theme.color.list.marker};
   transition: 0.5s;
   :hover {
-    text-decoration-color: ${({ theme }) => theme.color.indigo};
+    text-decoration-color: ${({ theme }) => theme.color.list.marker};
   }
   :active {
-    color: ${({ theme }) => theme.color.vinRouge};
-    text-decoration-color: ${({ theme }) => theme.color.vinRougeLessSaturated};
+    color: ${({ theme }) => theme.color.list.activeText};
+    text-decoration-color: ${({ theme }) => theme.color.list.activeUnderscore};
   }
 `;
