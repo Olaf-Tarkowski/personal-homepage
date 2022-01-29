@@ -1,3 +1,4 @@
+import ThemeSwitch from "../ThemeSwitch";
 import { BasicInfo, Button, Content, EnvelopeIcon, Image, Mail, Name, Tile, Welcom } from "./styled";
 
 const Greeting = () => {
@@ -21,9 +22,7 @@ const Greeting = () => {
           </Button>
         </Mail>
       </Content>
-      <p>
-        Button
-      </p>
+      <ThemeSwitch />
     </Tile >
 
   );
