@@ -6,7 +6,7 @@ import {
   fetchSuccess,
 } from "./personalHomepageSlice";
 
-const loading = 300;
+const loading = 3_000;
 
 function* fetchPersonalHomepageHandler() {
   try {
