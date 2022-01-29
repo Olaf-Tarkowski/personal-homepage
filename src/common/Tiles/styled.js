@@ -15,7 +15,7 @@ export const Title = styled.h1`
     font-weight: 900;
     font-size: 30px;
     line-height: 36px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
 `;
 
 export const List = styled.ul`
