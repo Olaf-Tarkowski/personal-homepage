@@ -4,6 +4,7 @@ export const theme = {
         whiteLilac: "#FBFBFE",
         black: "#000000",
         indigo: "#3C6EC9",
+        indigoTransp:"#3c6ec942",
         slateGray: "#6E7E91",
         mischka: "#D1D5DA4D",
         vinRouge: "#8E3C6B",
