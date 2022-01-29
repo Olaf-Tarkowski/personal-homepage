@@ -14,6 +14,10 @@ export const Tile = styled.section`
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
     0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 5px;
+  transition: 0.5s;
+  :hover {
+    transform: scale(1.03);
+  }
 `;
 
 export const Title = styled.h1`
@@ -38,5 +42,10 @@ export const Description = styled.p`
 `;
 
 export const Link = styled.a`
+  text-decoration: underline;
+  text-decoration-color: ${({ theme }) => theme.color.indigoTransp};
   color: ${({ theme }) => theme.color.indigo};
+  :active {
+        color: ${({theme}) => theme.color.vinRouge}
+    }
 `;

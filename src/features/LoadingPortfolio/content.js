@@ -1,3 +1,5 @@
+import Loading from "../../common/Loading";
+import Warning from "../../common/Warning";
 import PortfolioTile from "../PortfolioTile";
 import { StyledPortfolioTile } from "./styled";
 
@@ -6,9 +8,9 @@ export const Content = ({ personalHomepageStatus, personalHomepageData }) => {
     case "initial":
       return null;
     case "loading":
-      return <p>loading</p>;
+      return <Warning />;
     case "error":
-      return <p>error</p>;
+      return <Warning />;
     case "success":
       return (
         <StyledPortfolioTile>
