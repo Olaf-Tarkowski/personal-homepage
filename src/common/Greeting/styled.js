@@ -30,7 +30,6 @@ export const Welcom = styled.div`
   font-weight: 700;
   line-height: 130%;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.color.slateGray};
 `;
 
 export const Name = styled.div`
@@ -39,6 +38,7 @@ export const Name = styled.div`
   font-size: 38px;
   line-height: 46px;
   letter-spacing: 0.05em;
+  color: ${({ theme }) => theme.color.headerLine};
 `;
 
 export const BasicInfo = styled.div`
@@ -47,7 +47,6 @@ export const BasicInfo = styled.div`
   font-weight: 400;
   line-height: 140%;
   letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.color.slateGray};
 `;
 
 export const Mail = styled.a`
@@ -66,15 +65,15 @@ export const Button = styled.button`
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.color.white};
-  background-color: ${({ theme }) => theme.color.indigo};
+  color: ${({ theme }) => theme.color.buttonLink.text};
+  background-color: ${({ theme }) => theme.color.buttonLink.background};
   :hover {
     transform: scale(1.15);
-    background-color: ${({ theme }) => theme.color.vinRouge};
+    background-color: ${({ theme }) => theme.color.buttonLink.hover};
   }
   :active {
     transform: scale(1.15);
-    background-color: ${({ theme }) => theme.color.vinRougeLessSaturated};
+    background-color: ${({ theme }) => theme.color.buttonLink.active};
   }
 `;
 
