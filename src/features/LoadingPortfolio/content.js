@@ -8,7 +8,7 @@ export const Content = ({ personalHomepageStatus, personalHomepageData }) => {
     case "initial":
       return null;
     case "loading":
-      return <Warning />;
+      return <Loading />;
     case "error":
       return <Warning />;
     case "success":
