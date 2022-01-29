@@ -45,7 +45,12 @@ export const Link = styled.a`
   text-decoration: underline;
   text-decoration-color: ${({ theme }) => theme.color.indigoTransp};
   color: ${({ theme }) => theme.color.indigo};
+  transition: 0.5s;
+  :hover {
+    text-decoration-color: ${({ theme }) => theme.color.indigo};
+  }
   :active {
-        color: ${({theme}) => theme.color.vinRouge}
-    }
+    color: ${({ theme }) => theme.color.vinRouge};
+    text-decoration-color: ${({ theme }) => theme.color.vinRougeLessSaturated};
+  }
 `;
