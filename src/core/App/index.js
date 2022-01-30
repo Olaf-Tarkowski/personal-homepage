@@ -5,7 +5,7 @@ import Goals from "../../common/Tiles/Goals";
 import Skills from "../../common/Tiles/Skills";
 import { StyledPage } from "./styled";
 
-function App() {
+function PersonalHomepage() {
   return (
     <StyledPage>
       <Greeting />
@@ -17,4 +17,4 @@ function App() {
   );
 };
 
-export default App;
+export default PersonalHomepage;
