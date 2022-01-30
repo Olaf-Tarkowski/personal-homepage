@@ -6,6 +6,7 @@ const Greeting = () => {
     <Tile>
       <Image />
       <Content>
+      <ThemeSwitch />
         <Welcom>
           This is
         </Welcom>
@@ -13,7 +14,7 @@ const Greeting = () => {
           Olaf Tarkowski
         </Name>
         <BasicInfo>
-          👨🏻‍💻 I’m a passionate Frontend Developer in love with React,currently looking for new job opportunities.
+          👨🏻‍💻 I’m a passionate Frontend Developer in love with React, currently looking for new job opportunities.
         </BasicInfo>
         <Mail href="mailto:tarkowski.software@gmail.com">
           <Button>
@@ -22,7 +23,6 @@ const Greeting = () => {
           </Button>
         </Mail>
       </Content>
-      <ThemeSwitch />
     </Tile >
 
   );
