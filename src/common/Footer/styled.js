@@ -17,6 +17,11 @@ export const Welcom = styled.div`
   line-height: 130%;
   text-transform: uppercase;
   color: ${({ theme }) => theme.color.slateGray};
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletMax}) {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
 `;
 
 export const Mail = styled.a`
@@ -36,6 +41,11 @@ export const Mail = styled.a`
   :active {
     color: ${({ theme }) => theme.color.list.activeText};
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletMax}) {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
 `;
 
 export const BasicInfo = styled.div`
@@ -46,6 +56,11 @@ export const BasicInfo = styled.div`
   line-height: 140%;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.headerLine};
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletMax}) {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
 `;
 
 export const LinkIcons = styled.div``;

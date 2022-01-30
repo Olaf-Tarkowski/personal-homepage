@@ -4,6 +4,16 @@ import { ReactComponent as Sun } from "./images/Sun.svg";
 export const Section = styled.section`
   display: flex;
   justify-content: flex-end;
+  
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletMax}) {
+    margin-top:-462px;
+    padding-bottom:462px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    margin-top:-215px;
+    padding-bottom:150px;
+  }
   `;
 
 export const Button = styled.button`
@@ -21,6 +31,11 @@ export const Text = styled.span`
   text-transform: uppercase;
   font-weight: 700;
   margin-right: 12px;
+  color: ${({ theme }) => theme.color.headerLine};
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletMax}) {
+    display: none;
+  }
 `;
 
 export const Box = styled.span`
@@ -28,7 +43,8 @@ export const Box = styled.span`
   border: 1px solid;
   padding: 3px;
   border-radius: 12px;
-  width: 48px;
+  min-width: 48px;
+  min-height: 28px;
   display: flex;
 `;
 
@@ -44,5 +60,7 @@ export const IconWraper = styled.span`
 `;
 
 export const SunIcon = styled(Sun)`
-color: ${({theme}) => theme.color.themeSwitch.icon}
+ path {
+    fill: ${({ theme }) => theme.color.themeSwitch.icon};
+  }
 `;

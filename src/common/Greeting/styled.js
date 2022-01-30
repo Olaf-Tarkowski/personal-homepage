@@ -5,17 +5,28 @@ import { ReactComponent as Envelope } from "./images/Envelope.svg";
 export const Tile = styled.div`
   margin-bottom: 72px;
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr;
   grid-gap: 66px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletMax}) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const Image = styled.div`
+  display: flex;
+  align-items: center;
   width: 398px;
   height: 398px;
   background-position: center;
   background-size: cover;
   background-image: url(${picture});
   border-radius: 50%;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    width: 150px;
+    height: 150px;
+  }
 `;
 
 export const Content = styled.div`
@@ -30,6 +41,9 @@ export const Welcom = styled.div`
   font-weight: 700;
   line-height: 130%;
   text-transform: uppercase;
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    margin-bottom: 8px;
+  }
 `;
 
 export const Name = styled.div`
@@ -39,14 +53,25 @@ export const Name = styled.div`
   line-height: 46px;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.headerLine};
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
 `;
 
 export const BasicInfo = styled.div`
   margin-bottom: 32px;
+  max-width: 700px;
   font-size: 20px;
   font-weight: 400;
   line-height: 140%;
   letter-spacing: 0.05em;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
 `;
 
 export const Mail = styled.a`

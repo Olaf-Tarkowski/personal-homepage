@@ -17,6 +17,10 @@ export const Tile = styled.section`
   :hover {
     transform: scale(1.03);
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    padding: 20px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -26,10 +30,18 @@ export const Title = styled.h1`
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    font-size: 16px;
+  }
 `;
 export const TitleSection = styled.div`
   display: grid;
   grid-gap: 8px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    font-size: 14px;
+  }
 `;
 
 export const Content = styled.p`
@@ -38,6 +50,10 @@ export const Content = styled.p`
 
 export const Description = styled.p`
   margin: 0px 0px 24px 0px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    font-size: 14px;
+  }
 `;
 
 export const Link = styled.a`
