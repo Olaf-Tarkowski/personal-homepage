@@ -89,8 +89,8 @@ export const themeDark = {
       active: colors.vinRougeLessSaturated,
     },
     themeSwitch: {
-      background: colors.whiteLilac,
-      icon: colors.white,
+      background: colors.mineShaft,
+      icon: colors.black,
     },
   },
 };
