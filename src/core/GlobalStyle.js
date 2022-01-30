@@ -11,7 +11,10 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: ${({ theme }) => theme.color.whiteLilac};
+        transition: 0.5s;
+        background: ${({ theme }) => theme.color.site.background};
+        color: ${({ theme }) => theme.color.site.text};
         font-family: 'Inter', sans-serif;
+        
     }
     `;
