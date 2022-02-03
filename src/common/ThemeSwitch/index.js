@@ -6,7 +6,7 @@ const ThemeSwitch = () => {
   const isDarkTheme = useSelector(selectToggleTheme);
   const dispatch = useDispatch();
 
-  return(
+  return (
     <Section>
       <Button onClick={() => dispatch(toggleTheme())}>
         <Text> Dark mode {isDarkTheme ? "on" : "off"}</Text>
@@ -17,7 +17,7 @@ const ThemeSwitch = () => {
         </Box>
       </Button>
     </Section>
-  )
+  );
 };
 
 export default ThemeSwitch;

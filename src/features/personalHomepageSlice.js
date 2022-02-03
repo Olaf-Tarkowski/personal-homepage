@@ -8,7 +8,7 @@ const personalHomepageSlice = createSlice({
   },
   reducers: {
     fetchLoading: () => ({
-      status: "loading", 
+      status: "loading",
       data: null,
     }),
     fetchSuccess: (_, { payload: data }) => ({
@@ -28,6 +28,7 @@ export const { fetchLoading, fetchSuccess, fetchError } =
 const selectState = (state) => state.personalHomepage;
 
 export const selectPersonalHomepageData = (state) => selectState(state).data;
-export const selectPersonalHomepageStatus = (state) => selectState(state).status
+export const selectPersonalHomepageStatus = (state) =>
+  selectState(state).status;
 
 export default personalHomepageSlice.reducer;

@@ -3,4 +3,4 @@ import { personalHomepageSaga } from "../features/personalHomepageSaga";
 
 export default function* saga() {
   yield all([personalHomepageSaga()]);
-};
+}

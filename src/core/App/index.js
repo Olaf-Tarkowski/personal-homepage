@@ -15,6 +15,6 @@ function PersonalHomepage() {
       <Footer />
     </StyledPage>
   );
-};
+}
 
 export default PersonalHomepage;

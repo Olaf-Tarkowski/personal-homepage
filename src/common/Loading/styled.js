@@ -14,7 +14,6 @@ export const LoadingImage = styled(Loading)`
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(0.52, 0.05, 0.32, 0.85);
-  
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
     width: 90px;

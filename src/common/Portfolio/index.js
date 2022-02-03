@@ -5,13 +5,9 @@ const Portfolio = () => {
   return (
     <>
       <Tile>
-        <GitHubImage/>
-        <BasicInfo>
-          Portfolio
-        </BasicInfo>
-        <Description>
-          My recent projects
-        </Description>
+        <GitHubImage />
+        <BasicInfo>Portfolio</BasicInfo>
+        <Description>My recent projects</Description>
         <Content>
           <LoadingPortfolio />
         </Content>

@@ -1,4 +1,11 @@
-import { Content, Description, Link, Tile, Title, TitleSection } from "./styled";
+import {
+  Content,
+  Description,
+  Link,
+  Tile,
+  Title,
+  TitleSection,
+} from "./styled";
 
 const PortfolioTile = ({ personalHomepageData }) => {
   return (

@@ -1,20 +1,27 @@
 import ThemeSwitch from "../ThemeSwitch";
-import { BasicInfo, Button, Content, EnvelopeIcon, Image, Mail, Name, Tile, Welcom } from "./styled";
+import {
+  BasicInfo,
+  Button,
+  Content,
+  EnvelopeIcon,
+  Image,
+  Mail,
+  Name,
+  Tile,
+  Welcom,
+} from "./styled";
 
 const Greeting = () => {
   return (
     <Tile>
       <Image />
       <Content>
-      <ThemeSwitch />
-        <Welcom>
-          This is
-        </Welcom>
-        <Name>
-          Olaf Tarkowski
-        </Name>
+        <ThemeSwitch />
+        <Welcom>This is</Welcom>
+        <Name>Olaf Tarkowski</Name>
         <BasicInfo>
-          👨🏻‍💻 I’m a passionate Frontend Developer in love with React, currently looking for new job opportunities.
+          👨🏻‍💻 I’m a passionate Frontend Developer in love with React, currently
+          looking for new job opportunities.
         </BasicInfo>
         <Mail href="mailto:tarkowski.software@gmail.com">
           <Button>
@@ -23,8 +30,7 @@ const Greeting = () => {
           </Button>
         </Mail>
       </Content>
-    </Tile >
-
+    </Tile>
   );
 };
 

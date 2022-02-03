@@ -1,20 +1,20 @@
-import styled, {css} from "styled-components";
+import styled, { css } from "styled-components";
 import { ReactComponent as Sun } from "./images/Sun.svg";
 
 export const Section = styled.section`
   display: flex;
   justify-content: flex-end;
-  
+
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletMax}) {
-    margin-top:-462px;
-    padding-bottom:462px;
+    margin-top: -462px;
+    padding-bottom: 462px;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
-    margin-top:-215px;
-    padding-bottom:150px;
+    margin-top: -215px;
+    padding-bottom: 150px;
   }
-  `;
+`;
 
 export const Button = styled.button`
   cursor: pointer;
@@ -54,13 +54,15 @@ export const IconWraper = styled.span`
   border-radius: 50%;
   display: flex;
   transition: transform 0.3s;
-  ${({ moveToRight }) => moveToRight && css`
-    transform: translateX(20px);
-  `}
+  ${({ moveToRight }) =>
+    moveToRight &&
+    css`
+      transform: translateX(20px);
+    `}
 `;
 
 export const SunIcon = styled(Sun)`
- path {
+  path {
     fill: ${({ theme }) => theme.color.themeSwitch.icon};
   }
 `;
