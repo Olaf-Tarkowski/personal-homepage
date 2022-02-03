@@ -3,7 +3,6 @@ import { ReactComponent as Error } from "./images/Danger.svg";
 
 export const Section = styled.section`
   margin: 0px;
-  padding-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +19,10 @@ export const Notification = styled.p`
   font-size: 24px;
   line-height: 29px;
   letter-spacing: 0.04em;
+
+  @media (max-width: ${({theme}) => theme.breakpoint.mobileMax}) {
+    font-size: 16px;
+  }
 `;
 
 export const BasicInfo = styled.p`
@@ -29,6 +32,10 @@ export const BasicInfo = styled.p`
   font-size: 20px;
   line-height: 140%;
   letter-spacing: 0.04em;
+
+  @media (max-width: ${({theme}) => theme.breakpoint.mobileMax}) {
+    font-size: 14px;
+  }
 `;
 
 export const LinkButton = styled.a`
