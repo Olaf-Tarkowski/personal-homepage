@@ -18,7 +18,7 @@ const PortfolioTile = ({ personalHomepageData }) => {
             <Content>
               Demo:{" "}
               <Link href={`https://olaf-tarkowski.github.io/${name}/`}>
-                Link to this wabsite
+                Link to this website
               </Link>
             </Content>
             <Content>
