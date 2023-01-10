@@ -16,8 +16,8 @@ const Footer = () => {
     <>
       <Content>
         <Welcom>Let’s talk!</Welcom>
-        <Mail href="mailto:tarkowski.software@gmail.com">
-          tarkowski.software@gmail.com
+        <Mail href="mailto:olaftarkowski97@gmail.com">
+          olaftarkowski97@gmail.com
         </Mail>
         <BasicInfo>
           I’m always open to new projects whenever I have the time. If you have
