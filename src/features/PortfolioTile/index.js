@@ -10,23 +10,22 @@ import {
 const PortfolioTile = ({ personalHomepageData }) => {
   return (
     <>
-      {personalHomepageData.map(({ id, name, html_url, description }) => (
-        <Tile key={id}>
-          <Title>{name}</Title>
-          <Description>{description}</Description>
-          <TitleSection>
-            <Content>
-              Demo:{" "}
-              <Link href={`https://olaf-tarkowski.github.io/${name}/`}>
-                Link to this website
-              </Link>
-            </Content>
-            <Content>
-              Code: <Link href={html_url}>Link to this repository</Link>
-            </Content>
-          </TitleSection>
-        </Tile>
-      ))}
+      {personalHomepageData.map(
+        ({ id, name, html_url, description, homepage }) => (
+          <Tile key={id}>
+            <Title>{name}</Title>
+            <Description>{description}</Description>
+            <TitleSection>
+              <Content>
+                Demo: <Link href={homepage}>Link to this website</Link>
+              </Content>
+              <Content>
+                Code: <Link href={html_url}>Link to this repository</Link>
+              </Content>
+            </TitleSection>
+          </Tile>
+        )
+      )}
     </>
   );
 };
